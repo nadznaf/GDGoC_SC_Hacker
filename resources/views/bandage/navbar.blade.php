@@ -49,11 +49,11 @@
             <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="navbar-sticky">
                 <ul class="flex flex-col p-4 lg:p-0 mt-4 font-medium lg:flex-row lg:mt-0 lg:bg-white">
                     <li class="flex justify-center mb-4">
-                        <a href="#" class="text-center lg:bg-transparent lg:px-2 {{ request()->routeIs('home') ? 'text-dark font-medium' : 'text-font_dark font-bold' }}">Home</a>
+                        <a href="#" class="text-center lg:bg-transparent lg:px-2 {{ request()->routeIs('home') ? 'text-dark font-medium' : 'text-font_dark font-bold' }} hover:text-dark">Home</a>
                     </li>
 
                     <li class="flex justify-center mb-4">
-                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-center w-full lg:bg-transparent lg:px-2 hover:bg-gray-100 lg:w-auto {{ request()->routeIs('shop') ? 'text-dark font-medium' : 'text-font_dark font-bold' }}">
+                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-center w-full lg:bg-transparent lg:px-2 hover:bg-gray-100 lg:w-auto {{ request()->routeIs('shop') ? 'text-dark font-medium' : 'text-font_dark font-bold' }} hover:text-dark">
                             Shop
                             <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
@@ -75,19 +75,19 @@
                         </div>
                     </li>
                     <li class="flex justify-center mb-4">
-                        <a href="#" class="text-center lg:bg-transparent lg:px-2 {{ request()->routeIs('about') ? 'text-dark font-medium' : 'text-font_dark font-bold' }}">About</a>
+                        <a href="#" class="text-center lg:bg-transparent lg:px-2 {{ request()->routeIs('about') ? 'text-dark font-medium' : 'text-font_dark font-bold' }} hover:text-dark">About</a>
                     </li>
                     <li class="flex justify-center mb-4">
-                        <a href="#" class="text-center lg:bg-transparent lg:px-2 {{ request()->routeIs('blog') ? 'text-dark font-medium' : 'text-font_dark font-bold' }}">Blog</a>
+                        <a href="#" class="text-center lg:bg-transparent lg:px-2 {{ request()->routeIs('blog') ? 'text-dark font-medium' : 'text-font_dark font-bold' }} hover:text-dark">Blog</a>
                     </li>
                     <li class="flex justify-center mb-4">
-                        <a href="#" class="text-center lg:bg-transparent lg:px-2 {{ request()->routeIs('contact') ? 'text-dark font-medium' : 'text-font_dark font-bold' }}">Contact</a>
+                        <a href="#" class="text-center lg:bg-transparent lg:px-2 {{ request()->routeIs('contact') ? 'text-dark font-medium' : 'text-font_dark font-bold' }} hover:text-dark">Contact</a>
                     </li>
                     <li class="flex justify-center lg:hidden mb-4">
                         <svg class="w-6 h-6 text-blue mr-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-width="2" d="M7 17v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3Zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
                         </svg>
-                        <a href="#" class="block md:bg-transparent md:p-0 {{ request()->routeIs('login') ? 'text-dark font-medium' : 'text-blue font-bold' }}">Login / Register</a>
+                        <a href="#" class="block md:bg-transparent md:p-0 {{ request()->routeIs('login') ? 'text-dark font-medium' : 'text-blue font-bold' }} hover:text-dark">Login / Register</a>
                     </li>
                     <li class="flex justify-center lg:hidden mb-4">
                         <svg class="w-6 h-6 text-blue m-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
