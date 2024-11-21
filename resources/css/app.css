@@ -1,0 +1,7 @@
+/* Mengimpor font Montserrat */
+@import "@fontsource/montserrat";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
